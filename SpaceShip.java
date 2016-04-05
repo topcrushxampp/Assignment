@@ -17,9 +17,9 @@ public class SpaceShip extends Sprite{
 		g.setColor(Color.CYAN);
 		g.fillRect(x, y, width, height+30);
 		g.setColor(Color.BLUE);
-		g.fillRect(x+5, y-5, width-10, height);
-		g.setColor(Color.MAGENTA);
-		g.fillRect(x+10, y-10, width-20, height);
+		g.fillRect(x+5, y-5, width-10, height+20);
+		g.setColor(Color.YELLOW);
+		g.fillRect(x+10, y-10, width-20, height+10);
 		
 	}
 
